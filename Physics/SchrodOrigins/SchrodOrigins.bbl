@@ -1,0 +1,177 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{14}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Arndt}\ \emph {et~al.}(1999)\citenamefont {Arndt},
+  \citenamefont {Nairz}, \citenamefont {Vos-Andreae}, \citenamefont {Keller},
+  \citenamefont {van~der Zouw},\ and\ \citenamefont {Zeilinger}}]{bib:arndt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Arndt}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Nairz}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Vos-Andreae}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Keller}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {van~der Zouw}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Zeilinger}},\ }\href {\doibase
+  10.1038/44348} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf
+  {\bibinfo {volume} {401}},\ \bibinfo {pages} {680} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2011)\citenamefont {Lee},
+  \citenamefont {Sprague}, \citenamefont {Sussman}, \citenamefont {Nunn},
+  \citenamefont {Langford}, \citenamefont {Jin}, \citenamefont {Champion},
+  \citenamefont {Michelberger}, \citenamefont {Reim}, \citenamefont {England},
+  \citenamefont {Jaksch},\ and\ \citenamefont {Walmsley}}]{bib:leediamonds}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~C.}\ \bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {M.~R.}\ \bibnamefont {Sprague}},
+  \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont {Sussman}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Nunn}}, \bibinfo {author}
+  {\bibfnamefont {N.~K.}\ \bibnamefont {Langford}}, \bibinfo {author}
+  {\bibfnamefont {X.-M.}\ \bibnamefont {Jin}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Champion}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Michelberger}}, \bibinfo {author} {\bibfnamefont {K.~F.}\
+  \bibnamefont {Reim}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {England}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Jaksch}}, \
+  and\ \bibinfo {author} {\bibfnamefont {I.~A.}\ \bibnamefont {Walmsley}},\
+  }\href {\doibase 10.1126/science.1211914} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {334}},\ \bibinfo {pages}
+  {1253} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sakurai}(1993)}]{bib:wkb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Sakurai}},\ }\href@noop {} {\emph {\bibinfo {title} {Modern Quantum
+  Mechanics.}}}\ (\bibinfo  {publisher} {Addison-Wesley},\ \bibinfo {year}
+  {1993})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gross}(1961)}]{bib:gpg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Gross}},\ }\href {\doibase 10.1007/BF02731494} {\bibfield  {journal}
+  {\bibinfo  {journal} {Il Nuovo Cimento Series 10}\ }\textbf {\bibinfo
+  {volume} {20}},\ \bibinfo {pages} {454} (\bibinfo {year} {1961})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Pitaevskii}(1961)}]{bib:gpp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~P.}\ \bibnamefont
+  {Pitaevskii}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Soviet Physics JETP-USSR}\ }\textbf {\bibinfo {volume} {13}} (\bibinfo
+  {year} {1961})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schleich}\ \emph {et~al.}(2013)\citenamefont
+  {Schleich}, \citenamefont {Greenberger}, \citenamefont {Kobe},\ and\
+  \citenamefont {Scully}}]{bib:revisited}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~P.}\ \bibnamefont
+  {Schleich}}, \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Greenberger}}, \bibinfo {author} {\bibfnamefont {D.~H.}\ \bibnamefont
+  {Kobe}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~O.}\ \bibnamefont
+  {Scully}},\ }\href {\doibase 10.1073/pnas.1302475110} {\bibfield  {journal}
+  {\bibinfo  {journal} {PNAS}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo
+  {pages} {5374} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oriols}\ and\ \citenamefont
+  {Mompart}(2012)}]{bib:obm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Oriols}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Mompart}},\ }\href@noop {} {\emph {\bibinfo {title} {Applied Bohmian
+  Mechanics: From Nanoscale Systems to Cosmology}}}\ (\bibinfo  {publisher}
+  {Editorial Pan Stanford Publishing Pte. Ltd},\ \bibinfo {year} {2012})\
+  Chap.~\bibinfo {chapter} {1}, pp.\ \bibinfo {pages} {15--147}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Landau}\ and\ \citenamefont
+  {Lifshitz}(1969)}]{bib:hamiltonjacobi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~D.}\ \bibnamefont
+  {Landau}}\ and\ \bibinfo {author} {\bibfnamefont {E.~M.}\ \bibnamefont
+  {Lifshitz}},\ }\href@noop {} {\emph {\bibinfo {title} {{Mechanics}}}}\
+  (\bibinfo  {publisher} {Pergamon Press},\ \bibinfo {year} {1969})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Madelung}(1926)}]{bib:madelung}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Madelung}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Z
+  Phys}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo {pages} {322Ð326}
+  (\bibinfo {year} {1926})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bohm}(1952)}]{bib:bohm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Bohm}},\ }\href {\doibase 10.1103/PhysRev.85.166} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {85}},\
+  \bibinfo {pages} {166} (\bibinfo {year} {1952})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Sbitnev}}(2013)}]{bib:navstoke}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~I.}\ \bibnamefont
+  {{Sbitnev}}},\ }\href@noop {} {\  (\bibinfo {year} {2013})},\ \Eprint
+  {http://arxiv.org/abs/1307.6920} {arXiv:1307.6920} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Couder}\ and\ \citenamefont
+  {Fort}(2006)}]{bib:dropsdiffract}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Couder}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Fort}},\
+  }\href {\doibase 10.1103/PhysRevLett.97.154101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {97}},\
+  \bibinfo {pages} {154101} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Young}(1804)}]{bib:Young}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Young}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Philos
+  Trans R Soc London}\ }\textbf {\bibinfo {volume} {94}} (\bibinfo {year}
+  {1804})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sinha}\ \emph {et~al.}(2010)\citenamefont {Sinha},
+  \citenamefont {Couteau}, \citenamefont {Jennewein}, \citenamefont
+  {Laflamme},\ and\ \citenamefont {Weihs}}]{bib:qmlinear}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Sinha}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Couteau}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Jennewein}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Laflamme}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Weihs}},\ }\href {\doibase
+  10.1126/science.1190545} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {329}},\ \bibinfo {pages} {418}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\end{thebibliography}%

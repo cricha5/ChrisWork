@@ -1,0 +1,180 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,a4paper,ariel]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.84]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Christopher}{Richardson}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\address{Rue Charles Magnette 12c}{4000 Liege}{Belgium}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+32.471.92.28.80}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{cricha5@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+\extrainfo{United States Citizen}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+%\makecvtitle
+%
+%\section{Education}
+%\cventry{1996--2012}{Ph.D. and BS in Physics}{Louisiana State University}{Baton Rouge, LA, U.S.A.}{}{Minor in Computer Science}  % arguments 3 to 6 can be left empty
+%\cventry{2000--2001}{Courses in Computer Science}{American University of Sharjah}{Sharjah, United Arab Emirates}{}{}
+%
+%%\section{Master thesis}
+%%\cvitem{title}{\emph{Title}}
+%%\cvitem{supervisors}{Supervisors}
+%%\cvitem{description}{Short thesis abstract}
+%
+%\section{Experience}
+%%\subsection{Vocational}
+%\cventry{2012--2014}{University of Liege}{Post-Doctoral Researcher}{Liege, Belgium}{}{Researching the theoretical connections and analogies between a macroscopic bouncing droplet system and quantum mechanics.  Contract ends in October 2014.%
+%\begin{itemize}%
+%\item Responsible for writing and publishing papers on this subject and on subjects carried over from my graduate research.
+%\item Responsible for modeling the systems in question in Mathematica, C, C++, using optimization methods such as multithreading with openmp.
+%\end{itemize}}
+%\cventry{2007--2012}{Louisiana State University}{Lab Instructor and Teachers Assistant}{Baton Rouge, LA, U.S.A.}{}{Taught second semester physics lab since August 2011 untill August 2012.  Taught first semester physics lab from January 2007 until May 2009.%
+%\begin{itemize}%
+%\item Responsible for designing requirements for and grading lab reports as well as creating the final exam.
+%\item Because of extensive course work in quantum physics I was responsible for grading Dr. Jon Dowling's high level quantum course spring of 2011.
+%\end{itemize}}
+%\cventry{2009--2011}{Louisiana State University}{Research Assistant}{Baton Rouge, LA, U.S.A.}{}{Researched quantum fundamentals under Dr. Jon Dowling with funding from the Foundational Questions Institute (FQXI) and the U.S. Air Force.%
+%\begin{itemize}%
+%\item Published a paper reexamining Popper's Thought Experiment in light of new experiments.
+%\item Lead an international team that published a paper on using an entangled decoy states in QKD.
+%\end{itemize}}
+%\cventry{2006--2007}{Louisiana State University}{Research Assistant}{Baton Rouge, LA, U.S.A.}{}{Worked with Dr. Thomas Kutter on the T2K (Tokai to Kamioka) neutrino oscillation experiment.%
+%\begin{itemize}%
+%\item Designed, built and tested parts for the muon detector.  This involved building scintillating detectors with embedded fiber optic cables running to photodiodes and testing these detectors using equipment such as oscilloscopes and coincidence counters.
+%\item Traveled to CERN, where the yokes to house the detectors were located, to take measurements for the detectors fitment. 
+%\item Wrote C++ code to optimize the detectors fitment inside the yokes and used the Geant4 toolkit to model the particle interactions.
+%\end{itemize}}
+%\cventry{2003--2006}{Louisiana State University}{Web Programmer}{Baton Rouge, LA, U.S.A.}{}{Responsible for the entire website of the Extension Disaster Education Network (EDEN).%
+%\begin{itemize}%
+%\item This included programing the front of the site with HTML and JavaScript but mostly involved programming the interface between the website and the database using Visual C++ and SQL.
+%\item Responsible for synchronizing the website with an secure off-site facility to be used in case of outages resulting from disasters such as a hurricane.
+%\end{itemize}}
+%
+%\section{International Conferences}
+%\cventry{2012}{}{APS March Meeting}{Boston, MA, U.S.A.}{}{Contributed presentation and poster at the American Physical Society (APS) March Meeting. Made a presentation on Popper's thought experiment.  Presented a poster on quantum key distribution (QKD) with entangled decoy states.}%
+%\cventry{2012}{}{OSA QIM Conference }{Berlin, Germany}{}{Presented a paper on quantum key distribution (QKD) using entangled decoy states at the Quantum Information and Measurement (QIM) conference.}%
+%\cventry{2012}{}{SPIE Defense, Security and Sensing}{Baltimore, MD, U.S.A.}{}{Presented a paper on quantum key distribution (QKD) using entanglement enhanced decoy states.}%
+%\cventry{2014}{}{DPG Spring Meeting}{Berlin, Germany}{}{Will present a paper exploring the linearity of quantum mechanics.}%
+%%
+%%
+%%
+%%\section{Languages}
+%%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+%%
+%%\section{Computer skills}
+%%\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+%%\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+%%\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+%%
+%%\section{Interests}
+%%\cvitem{hobby 1}{Description}
+%%\cvitem{hobby 2}{Description}
+%%\cvitem{hobby 3}{Description}
+%
+%%\section{Extra 2}
+%%\cvlistdoubleitem{Item 1}{Item 4}
+%%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+%%
+%%\section{References}
+%%\begin{cvcolumns}
+%%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%%\end{cvcolumns}
+%
+%% Publications from a BibTeX file without multibib
+%%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+%
+%% Publications from a BibTeX file using the multibib package
+%%\section{Publications}
+%%\nocitebook{book1,book2}
+%%\bibliographystylebook{plain}
+%%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%%\nocitemisc{misc1,misc2,misc3}
+%%\bibliographystylemisc{plain}
+%%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+%
+%\section{Other Skills}
+%\cvlistitem{I am a novice speaker of French and German.}
+%\cvlistitem{Although my most recent work has been in multithreading C and C++, I have also used or been educated in SQL, VisualBasic, VisualC++, Java, linux use and scripting, scientific modeling packages such as GEANT4, iOS and OS X programming using Xcode, Mathematica and LaTeX.}
+%\cvlistitem{I am handy with a wrench and soldering iron.  My most recent project resulted in a pair of analog tube amplifiers and matching speakers.}
+%%
+%\clearpage
+%%-----       letter       ---------------------------------------------------------
+%% recipient data
+\recipient{\quad}{}
+\date{\today}
+\opening{Dear Sir or Madam,}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+Through my postdoctoral work, education, and personal interests I have cultivated a deep and broad knowledge base. I can therefore approach a problem or project from many angles using my skills in programming, research, and communication, as well more utilitarian, hands-on, skills.  Consequently, it seems like a natural progression from my current job as postdoc researcher in quantum physics to a career in quantitative finance, a field which leverages all those same skills.  Additionally, I find the financial world fascinating and full of possibility.  I will be available in early October 2014 when my two year contract with the University of Liege ends at which point I would like to commit to a position and a company at which I can build a lasting career.
+ 
+Programming has been part of my work and research for a very long time and I am proficient in Java, C++, C\#, Python, SQL, etc.  I am well versed in object oriented, multithreaded programming techniques, source control with Git, and database manipulation.  I am quite competent with Mathematica and often use it to work through and visualize problems before I commit to a programming solution.  I have used these programming skills for work in web and database programming,  numerical analysis of differential equations, and modeling of complex systems.  
+
+I work well in a team and have excellent communication skills.  This has been crucial in my physics work since collaborations and presentations are absolutely necessary for scientific progress.  Because of these skills I have been successful in leading teams of peers as well as well as junior students to produce published scientific works.  On account of small internal presentations being very frequent and larger international presentations being not uncommon, I have developed proficiency and confidence communicating verbally to any size of audience.  Written communication is also very important for collaboration and my writing skills can be seen in my peer-reviewed publications.
+
+In addition to my analytic expertise I can also work in more physically immediate fields.  I can design and build both digital and analog circuits and enjoy doing so.  I have signal processing and data visualization experience from my experimental research on the T2K project and from my own hobbies such as building tube amps, speakers and a Megasquirt unit to control spark and fuel for a car.  I am also quite familiar with a toolbox and am a decent mechanic.
+
+I am open to travel and am a US citizen.
+
+Thank you for your consideration.
+
+I look forward to hearing from you.
+
+\makeletterclosing
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

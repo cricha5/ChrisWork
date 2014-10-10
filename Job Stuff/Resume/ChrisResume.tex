@@ -1,0 +1,188 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,a4paper,ariel]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+\makeatletter
+\renewcommand*\bibliographyitemlabel{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% adjust the page margins
+\usepackage[scale=0.82]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Christopher}{Richardson}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\address{Rue Charles Magnette 12c}{4000 Liege}{Belgium}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+32.471.92.28.80}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{cricha5@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+\extrainfo{United States Citizen}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{1996--2012}{Ph.D.~and BS in Physics}{Louisiana State University}{Baton Rouge, LA, U.S.A.}{}{Minor in Computer Science}  % arguments 3 to 6 can be left empty
+\cventry{2000--2001}{Courses in Computer Science}{American University of Sharjah}{Sharjah, United Arab Emirates}{}{}
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+\section{Experience}
+%\subsection{Vocational}
+\cventry{2012--2014}{University of Liege}{Post-Doctoral Researcher}{Liege, Belgium}{}{Researching the theoretical connections and analogies between a macroscopic bouncing droplet system and quantum mechanics.  Contract ends in October 2014.%
+\begin{itemize}%
+\item Responsible for writing and publishing papers on this and related subjects.
+\item Responsible for modeling the systems in question in Mathematica, C, C++, using optimization methods such as multithreading with openmp.
+\end{itemize}
+}
+\cventry{2007--2012}{Louisiana State University}{Lab Instructor and Teachers Assistant}{Baton Rouge, LA, U.S.A.}{}{Taught first semester physics lab from January 2007 until May 2009.  Taught second semester physics lab since August 2011 until August 2012.%
+\begin{itemize}%
+\item Responsible for designing requirements for and grading lab reports as well as creating the final exam.
+\item Because of extensive course work in quantum physics I was responsible for grading Dr.~Jon Dowling's high level quantum course spring of 2011.
+\end{itemize}
+}
+\cventry{2009--2011}{Louisiana State University}{Research Assistant}{Baton Rouge, LA, U.S.A.}{}{Researched quantum fundamentals under Dr.~Jon Dowling with funding from the Foundational Questions Institute (FQXI) and the U.S.~Air Force.%
+\begin{itemize}%
+\item Published a paper reexamining Popper's Thought Experiment in light of new experiments.
+\item Led an international team that published a paper on using an entangled decoy states in QKD.
+\end{itemize}
+}
+\cventry{2006--2007}{Louisiana State University}{Research Assistant}{Baton Rouge, LA, U.S.A.}{}{Worked with Dr.~Thomas Kutter on the T2K (Tokai to Kamioka) neutrino oscillation experiment.%
+\begin{itemize}%
+\item Designed, built and tested parts for the muon detector.  This involved building scintillating detectors with embedded fiber optic cables running to photodiodes and testing these detectors using equipment such as oscilloscopes and coincidence counters.
+\item Traveled to CERN, where the yokes to house the detectors were located, to take measurements for the detectors fitment. 
+\item Wrote C++ code to optimize the detectors fitment inside the yokes and used the Geant4 toolkit to model the particle interactions.\newline\newline\newline
+\end{itemize}
+}
+\cventry{2003--2006}{Louisiana State University}{Web Application Developer}{Baton Rouge, LA, U.S.A.}{}{Responsible for the entire website of the Extension Disaster Education Network (EDEN).%
+\begin{itemize}%
+\item This included programing the front of the site with HTML and JavaScript but mostly involved programming the interface between the website and the database using .NET, Visual Basic and SQL.
+\item Responsible for synchronizing the website with an secure off-site facility to be used in case of outages resulting from disasters such as a hurricane.
+\end{itemize}
+}
+\section{International Conferences}
+\cvline{2012 APS March Meeting, Boston, MA, U.S.A.}{\\Contributed a presentation on Popper's thought experiment\cite{Popper}  and a poster on quantum key distribution (QKD) with entanglement enhanced decoy states\cite{1367-2630-14-4-043003} .}
+\cvline{2012 OSA QIM Conference, Berlin, Germany}{\\Presented a paper\cite{1367-2630-14-4-043003} on quantum key distribution (QKD) using entanglement enhanced decoy states.}
+\cvline{2012 SPIE Defense, Security and Sensing, Baltimore, MD, U.S.A.}{\\Presented a paper\cite{1367-2630-14-4-043003} on quantum key distribution (QKD) using entanglement enhanced decoy states.}
+\cvline{2014 DPG Spring Meeting, Berlin, Germany}{\\Presented a paper\cite{PhysRevA.89.032118} which explores the role of linearity in quantum mechanics.}%
+\cvline{2014 Hydrodynamic Quantum Analogs IV, Rio de Janeiro, Brazil}{\\Presented our current research into the quantum analogues of the bouncing droplet system.}
+%
+%
+%
+%\section{Languages}
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+%
+%\section{Computer skills}
+%\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+%\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+%\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+%
+%\section{Interests}
+%\cvitem{hobby 1}{Description}
+%\cvitem{hobby 2}{Description}
+%\cvitem{hobby 3}{Description}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+%
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\renewcommand{\refname}{Selected Publications}
+\nocite{*}
+%\bibliographystyle{plain}
+\bibliographystyle{unsrt}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+\section{Other Skills}
+\cvlistitem{I am a novice speaker of French and German.}
+\cvlistitem{Although my most recent work has been in multithreading C and C++, I have also used or been educated in C\#, Python, SQL, VisualBasic, Java, assembly language, linux use, scripting, version control with Git, scientific modeling packages such as GEANT4, iOS and OS X programming using Xcode, database management, Mathematica, LaTeX and others.}
+\cvlistitem{I am handy with a wrench and soldering iron.  A recent project resulted in a pair of analog tube amplifiers and matching speakers.  I am currently fiddling with an Arduino and csound.}
+%
+%\clearpage
+%%%-----       letter       ---------------------------------------------------------
+%%% recipient data
+%\recipient{Institute for Defense Analyses}{}
+%\date{\today}
+%\opening{Dear Sir or Madam,}
+%\closing{Sincerely}
+%%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%
+%My current postdoc position ends in October 2014 and afterwords I would very much like to come work with an IDA team.  I am applying for the Research Analyst position and have all the skills the job posting requires.  The research and programming work I have done before and after receiving my Ph.D.~demonstrate my experience and my analytic skills.   I also work well in a team.  Collaboration has been a necessary part of my work and the team publications and projects demonstrate my ability to work with others and accomplish larger goals.  Collaboration has also lead to proficiency and confidence communicating verbally since small internal presentations are so frequent and larger international presentations are not uncommon.  I also have strong written skills as is evidenced by my scientific publications.  In addition I also have experience in security.  I have published work on quantum key distribution and I am familiar with quantum cryptography in general.  I also cut my teeth on Java by programming the RSA protocol from the published standard.  Additionally, programming has been part of my work and research for a very long time and, while I am most proficient in Java, C and C++, I have no trouble using other languages or programming for mobile platforms such as iOS devices.  I also generally use Mathematica to work through problems before I commit to a programming solution.
+%
+%Thank you for your consideration.
+%
+%\makeletterclosing
+%
+%%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

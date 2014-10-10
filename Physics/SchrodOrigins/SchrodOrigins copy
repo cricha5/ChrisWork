@@ -1,0 +1,213 @@
+\documentclass[aps,prl,preprint,groupedaddress]{revtex4-1}
+%\documentclass[12pt]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+
+\begin{document}
+
+\title{Classical Schr\"{o}dinger-like Equation Revisited}
+\author{Chris Richardson, Peter Schlagheck, John Martin, Thierry Bastin}
+\affiliation{University of Liege}
+\date{\today}							% Activate to display a given date or no date
+
+\begin{abstract}
+
+A wave equation which sheds light on the origin of the Schr\"{o}dinger equation has previously been proposed.  This equation which we call the classical Schr\"{o}dinger-like equation is the Schr\"{o}dinger equation plus an extra non-linear term, a classicality-enforcing potential, which has the effect of canceling out all quantum and wave-like effects.  The Schr\"{o}dinger equation has been recovered from the classical Schr\"{o}dinger-like equation by making assumptions which have the effect of completely canceling the classicality-enforcing potential.
+
+We demonstrate both analytically and numerically that it is not strictly necessary to get rid of the classicality-enforcing potential to recover quantum behavior.  Even though the classical Schr\"{o}dinger-like equation is non-linear, we demonstrate that it behaves in a very linear way.  We then show that by scaling and not necessarily eliminating the classicality-enforcing potential the linear Schr\"{o}dinger equation is recovered, but with a rescaled $\hbar$.
+
+[talk about the origin of the Schr\"{o}dinger equation?]
+
+\end{abstract}
+
+\maketitle
+
+\section{A Classical Schr\"{o}dinger-like Equation}
+
+A wave equation that describes classical (non-quantum, non-wave-like) physics has been derived by Bohm \cite{bib:bohm} and Oriols and Mompart \cite{bib:obm}.  Separately, Schleich et al. \cite{bib:revisited} have also derived the same equation and suggest that the Schr\"{o}dinger equation has its origins in it.  We call it the classical Schr\"{o}dinger-like equation and it is defined as:
+
+\begin{eqnarray}
+i \hbar \frac{\partial \psi}{\partial t} = - \frac{\hbar^2}{2 m} \frac{\partial^2 \psi}{\partial x^2} + (V + \frac{\hbar^2}{2 m} \frac{1}{\left| \psi \right|} \frac{\partial^2 \left| \psi \right|}{\partial x^2}) \psi \label{eqn:class_schrod}
+\end{eqnarray}
+
+This equation comes from...
+
+This is the Schr\"{o}dinger equation plus an extra non-linear term which has the effect of canceling out all quantum or wave-like effects.  Schleich et al. refer to this term as the \emph{classicality-enforcing potential}.  It is obvious that if this term were absent, eqn. \ref{eqn:class_schrod} reduces to the fully quantum Schr\"{o}dinger equation.
+
+Schleich et al. transfer from this non-linear classical Schr\"{o}dinger-like equation to the linear Schr\"{o}dinger equation by associating the classicality-enforcing potential with the quantum action.  In this way, the classicality-enforcing potential is canceled out in eqn. \ref{eqn:class_schrod}.
+
+We would like to add, however, that it is not strictly necessary to get rid of the classicality-enforcing potential to recover quantum behavior.  We have found that by scaling and not necessarily eliminating the classicality-enforcing potential the linear Schr\"{o}dinger equation is recovered, but with a rescaled $\hbar$.
+
+
+
+To demonstrate this we approach the problem in two ways.  First we explore numerically what the effect of scaling the classicality-enforcing potential has on the double slit experiment.  We then show analytically that a scaled classicality-enforcing potential is equivalent to a rescaled $\hbar$
+
+We begin by inserting the term $0 \leq \epsilon \leq 1$, which we call the degree of quantumness, into eqn. \ref{eqn:class_schrod}.  This allows us to explore the transition from the classical world where $\epsilon = 0$ to the quantum one where $\epsilon = 1$.
+
+\begin{eqnarray}
+i \hbar \frac{\partial \psi}{\partial t} &=& - \frac{\hbar^2}{2 m} \frac{\partial^2 \psi}{\partial x^2} + (V + (1 - \epsilon) \frac{\hbar^2}{2 m} \frac{1}{\left| \psi \right|} \frac{\partial^2 \left| \psi \right|}{\partial x^2}) \psi \label{eqn:class_schrod_ep}
+\end{eqnarray}
+
+$\epsilon = 1$ is a very special case.  It is the only point at which there is no quantum behavior.
+
+\section{Scaling $\hbar$}
+
+We can show analytically that the non-linear classical Schr\"{o}dinger-like equation with a scaled classicality-enforcing potential is equivalent to the linear Schr\"{o}dinger equation with a scaled $\hbar$.   If we write:
+
+\begin{eqnarray}
+\psi &=& A e^{\frac{i}{\hbar} S} \nonumber \\
+\nabla \psi &=& (\nabla A +\frac{i}{\hbar} A \nabla S) e^{\frac{i}{\hbar} S}  \nonumber \\
+\nabla^2 \psi &=& (\nabla A + 2 \frac{i}{\hbar}  (\nabla A)(\nabla S) + \frac{i}{\hbar} A \nabla S - \frac{1}{\hbar^2}  A (\nabla S)^2) e^{\frac{i}{\hbar} S}  \nonumber \\
+i \hbar \frac{\partial \psi}{\partial t} &=& (i \hbar \frac{\partial A}{\partial t} - A \frac{\partial S}{\partial t}) e^{\frac{i}{\hbar} S}  \nonumber \\
+\frac{\psi}{\left| \psi \right|} \nabla^2 \psi &=& \nabla A e^{\frac{i}{\hbar} S}  \nonumber
+\end{eqnarray}
+
+We can plug this into the classical Schr\"{o}dinger-like equation and gather the real and imaginary terms:
+
+\begin{eqnarray}
+i \hbar \frac{\partial A}{\partial t}  &=& -\frac{\hbar^2}{2 m}(2 \frac{i}{\hbar}  (\nabla A)(\nabla S) + \frac{i}{\hbar} A \nabla S)  \nonumber \\
+ - A \frac{\partial S}{\partial t} &=& -\frac{\hbar^2}{2 m}( \frac{1}{\hbar^2} A (\nabla S)^2)  + \nabla A (1 - \epsilon)) + V A \nonumber
+\end{eqnarray}
+
+Now if we make the substitution $\tilde{\hbar} = \hbar \sqrt{1 - \epsilon}$ we get:
+
+\begin{eqnarray}
+i \tilde{\hbar} \frac{\partial A}{\partial t}  &=& -\frac{\tilde{\hbar}^2}{2 m}(2 \frac{i}{\tilde{\hbar}}  (\nabla A)(\nabla S) + \frac{i}{\tilde{\hbar}} A \nabla S)  \nonumber \\
+ - A \frac{\partial S}{\partial t} &=& -\frac{\tilde{\hbar}^2}{2 m}( \frac{1}{\tilde{\hbar}^2} A (\nabla S)^2)  + \nabla A) + V A \nonumber
+\end{eqnarray}
+
+Which is simply the Schr\"{o}dinger equation with a rescaled $\hbar$:
+
+\begin{eqnarray}
+\psi &=& A e^{\frac{i}{\tilde{\hbar}} S} \nonumber \\
+i \tilde{\hbar} \frac{\partial \psi}{\partial t}  &=& -  \frac{\tilde{\hbar}^2}{2 m} \nabla^2 \psi + V \psi \nonumber
+\end{eqnarray}
+
+\section{The Double Slit}
+
+For classical particles with no wave nature we expect the particles to pass through one or the other slit and continue on without diffraction for all time.  Quantum mechanically, we expect the probability for the particles beyond the slit to be represented by a diffraction pattern that spreads with time.
+
+\subsection{The Fully Quantum Double Slit}
+
+We start the analysis with a gaussian double slit with $V = 0$ and initial conditions:
+
+\begin{eqnarray}
+i \hbar \frac{\partial \psi}{\partial t} &=& -\frac{\hbar^2}{2 m} \frac{\partial^2 \psi}{\partial x^2}  \nonumber \\
+\psi(x,0) &=& N \left( e^{-\frac{(x-d)^2}{4 \sigma ^2}}+e^{-\frac{(x+d)^2}{4 \sigma ^2}}\right) \label{eqn:double_init} \\
+\left| \psi(x,0) \right|^2 &=& N \left(e^{-\frac{(x-d)^2}{4 \sigma ^2}}+e^{-\frac{(x+d)^2}{4 \sigma ^2}}\right)^2 \nonumber
+\end{eqnarray}
+
+Where $d$ is the distance between the slits and $\sigma$ is the width of the slits.  When the time-dependent Schr\"{o}dinger is solved for the initial condition, eqn. \ref{eqn:double_init}, the time-dependent wave function and the probability amplitude are found to be:
+
+\begin{eqnarray}
+\psi(x,t) &=& N \left(e^{-\frac{(x-d)^2}{4 \left(\sigma ^2+i t\right)}}+e^{-\frac{(x+d)^2}{4 \left(\sigma ^2+i t\right)}}\right)\nonumber  \\
+\left| \psi(x,t) \right|^2 &=& N \left(\left(e^{-\frac{\sigma ^2 (x-d)^2}{4 \left(t^2+\sigma ^4\right)}}+e^{-\frac{\sigma ^2 (x+d)^2}{4 \left(t^2+\sigma ^4\right)}}\right)^2- \left( 2 e^{-\frac{\sigma ^2 \left(x^2 + d^2\right)}{4 \left(t^2+\sigma ^4\right)}} \sin \left(\frac{t x d}{2 \left(t^2+\sigma ^4\right)}\right)\right)^2\right) \label{eqn:wf_double_t}
+\end{eqnarray}
+
+Which gives the expected diffraction pattern at some time $t = \tau$ as is shown in figure \ref{fig:quant_diffract_pat}.
+
+\begin{figure}[ht]
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+  \includegraphics[width=1\textwidth]{Graphics/Probs_classical.pdf}
+\caption{Analytic initial distribution of particles at time $t = 0$. }
+\label{fig:wf_init}
+\end{minipage}
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+  \includegraphics[width=1\textwidth]{Graphics/Probs_quantum.pdf}
+\caption{Analytic diffraction pattern at time $t = \tau$ for the double slit. }
+\label{fig:quant_diffract_pat}
+\end{minipage}
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+  \includegraphics[width=1\textwidth]{Graphics/Probs_ep-0_ep-1.pdf}
+\caption{Numerical simulation at time $t = \tau$.  Red line is the completely classical, $\epsilon = 1$, probability.  Blue line is the completely quantum, $\epsilon = 0$, diffraction pattern. }
+\label{fig:class_quant_diffract_pat}
+\end{minipage}
+\end{figure}
+
+\subsection{The Semi-Quantum Semi-Classical Double Slit}
+
+The classical Schr\"{o}dinger-like equation with no potential, $V = 0$, is:
+
+\begin{eqnarray}
+i \hbar \frac{\partial \psi}{\partial t} &=& -\frac{\hbar^2}{2 m} \frac{\partial^2 \psi}{\partial x^2} + \epsilon \frac{\hbar^2}{2 m} \frac{\psi}{\left| \psi \right|} \frac{\partial^2 \left| \psi \right|}{\partial x^2}  \label{eqn:schrod_class_nov}
+\end{eqnarray}
+
+Eqn. \ref{eqn:schrod_class_nov} can be solved numerically using the explicit finite difference method.  Eqn. \ref{eqn:double_init} is discretized into $\psi_{x_n,0}$ where $x_n = n \Delta x$ and the next time step, $t_n = n \Delta t$, for eqn. \ref{eqn:schrod_class_nov} is given by the recurrence relation:
+
+\begin{eqnarray}
+\psi(x_n,t_{n+1}) &=& i \frac{\Delta t}{(\Delta x)^2} \Bigl( \psi_{x_{n+1},t_n} + \psi_{x_{n-1},t_n} - \psi_{x_n,t_n} \left(2 + i \frac{(\Delta x)^2}{\Delta t}\right) \nonumber \\
+&& - \epsilon \sqrt{\frac{\psi_{x_n,t_n}}{\psi_{x_n,t_n}^*}} \left(\left| \psi_{x_{n+1},t_n} \right|  - 2 \left| \psi_{x_n,t_n} \right| + \left| \psi_{x_{n-1},t_n} \right|\right)\Bigr) 
+\label{eqn:recurance}
+\end{eqnarray}
+
+The asymptotic behavior is as expected.  As can be seen if fig. \ref{fig:class_quant_diffract_pat} for the completely quant case, when $\epsilon = 0$, the diffraction pattern that forms is identical to the analytic case, fig. \ref{fig:quant_diffract_pat}.  For the completely classical case, when $\epsilon = 1$, The diffraction pattern that forms is just that of the initial distribution, fig. \ref{fig:wf_init}.
+
+For all values of $0 \leq \epsilon < 1$, given enough time, a far-field diffraction pattern will develop with a visibility of one.  The time for a diffraction pattern to develop increases to infinity as $\epsilon \rightarrow 1$, the completely classical case.  Figure \ref{fig:Probs_variuous} shows several values of $epsilon$ at the same time step, $\tau$.  The diffraction patterns for the higher values of $\epsilon$ are less developed that for the lower values, but the visibility for all of them is one.
+
+\begin{figure}[ht]
+\begin{center}
+  \includegraphics[width=1\textwidth]{Graphics/Probs_variuous.pdf}
+\caption{Simulated diffraction patterns for various values of $\epsilon $ at time, $t = \tau$.  The black line has $\epsilon = 0$.   The red line has $\epsilon = 0.3$.   The green line has $\epsilon = 0.5$.   The blue line has $\epsilon = 0.7$. }
+\label{fig:Probs_variuous}
+\end{center}
+\end{figure}
+
+\section{Comparison}
+
+\begin{figure}[ht]
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+  \includegraphics[width=1\textwidth]{Graphics/Probs_ep-3_scaling.pdf}
+\caption{Analytic probability with $\tilde{\hbar} = \hbar \sqrt{1 - \epsilon}$ in blue and simulated in red for $\epsilon = 0.3$ at time,  $t = \tau$.}
+\label{fig:Probs_ep-0_scaling}
+\end{minipage}
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+  \includegraphics[width=1\textwidth]{Graphics/Probs_ep-5_scaling.pdf}
+\caption{Analytic probability with $\tilde{\hbar} = \hbar \sqrt{1 - \epsilon}$ in blue and simulated in red for $\epsilon = 0.5$ at time,  $t = \tau$.}
+\label{fig:Probs_ep-5_scaling}
+\end{minipage}
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+  \includegraphics[width=1\textwidth]{Graphics/Probs_ep-7_scaling.pdf}
+\caption{Analytic probability with $\tilde{\hbar} = \hbar \sqrt{1 - \epsilon}$ in blue and simulated in red for $\epsilon = 0.7$ at time,  $t = \tau$. }
+\label{fig:Probs_ep-7_scaling}
+\end{minipage}
+\end{figure}
+
+Figs. \ref{fig:Probs_ep-0_scaling} - \ref{fig:Probs_ep-7_scaling} show that the linear Schr\"{o}dinger equation with a scaled $\hbar$ produces equivalent results to the numerically solved non-linear classical Schr\"{o}dinger-like equation with a scaled classicality-enforcing potential.
+
+\section{Conclusion}
+
+We have demonstrate both analytically and numerically that it is not necessary to get rid of the classicality-enforcing potential to recover quantum behavior.  We have found that by scaling and not necessarily eliminating the classicality-enforcing potential the linear Schr\"{o}dinger equation is recovered, but with a rescaled $\hbar$.
+
+[it's interesting that a non-linear equation behaves in a linear manner]
+
+[talk about the origin of the Schr\"{o}dinger equation?]
+
+
+\newpage
+\begin{thebibliography}{4}
+
+\bibitem{bib:bohm}
+Feynman, Richard P. \emph{Six Easy Pieces} Reading, MA: Addison-Wesley, 1995.
+
+\bibitem{bib:obm}
+X.Oriols and J.Mompart \emph{Overview of Bohmian Mechanics}pages: 15-147; Chapter 1 of the book \emph{Applied Bohmian Mechanics: From Nanoscale Systems to Cosmology} Editorial Pan Stanford Publishing Pte. Ltd (2012).
+
+\bibitem{bib:revisited}
+Wolfgang P. Schleich, Daniel M. Greenberger, Donald H. Kobe, and Marlan O. Scully
+\emph{Schršdinger equation revisited}
+PNAS 2013 110 (14) 5374-5379; published ahead of print March 18, 2013, doi:10.1073/pnas.1302475110
+
+%\bibitem{bib:theonlymystery}
+%Feynman, Richard P. \emph{Six Easy Pieces} Reading, MA: Addison-Wesley, 1995.
+
+\end{thebibliography}
+
+
+\end{document}  

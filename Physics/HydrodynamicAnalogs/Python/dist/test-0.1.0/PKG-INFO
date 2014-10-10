@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: test
+Version: 0.1.0
+Summary: Useful towel-related stuff.
+Home-page: http://pypi.python.org/pypi/TowelStuff/
+Author: J. Random Hacker
+Author-email: jrh@example.com
+License: gpl-2.0.txt
+Description: Blerg
+Platform: UNKNOWN
