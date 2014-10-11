@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.10)  10 OCT 2014 14:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.10)  10 OCT 2014 14:17
 entering extended mode
-**C:/Documents*and*Settings/Christopher/Desktop/ChrisWork/Job*Stuff/Cover*Lette
-r/CoverLetter_Quant.tex
+**C:/Documents*and*Settings/Christopher/Desktop/ChrisWork/Job*Stuff/Resume/Chri
+sResume.tex
 
-("C:/Documents and Settings/Christopher/Desktop/ChrisWork/Job Stuff/Cover Lette
-r/CoverLetter_Quant.tex"
+("C:/Documents and Settings/Christopher/Desktop/ChrisWork/Job Stuff/Resume/Chri
+sResume.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -855,27 +855,27 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip77
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 53.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
+Package hyperref Info: Option `breaklinks' set `true' on input line 67.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 67.
 
-("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Cover Lette
-r\CoverLetter_Quant.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Resume\Chri
+sResume.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 ("C:\Documents and Settings\Christopher\Application Data\MiKTeX\2.9\tex\context
 \base\supp-pdf.mkii"
@@ -892,7 +892,7 @@ LaTeX Font Info:    ... okay on input line 53.
 \makeMPintoPDFobject=\count158
 \everyMPtoPDFconversion=\toks30
 )
-LaTeX Info: Redefining \microtypecontext on input line 53.
+LaTeX Info: Redefining \microtypecontext on input line 67.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -915,15 +915,15 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(38.83948pt, 519.82892pt, 38.83948pt)
-* v-part:(T,H,B)=(43.94409pt, 735.18661pt, 65.91614pt)
+* h-part:(L,W,R)=(41.82536pt, 513.85713pt, 41.82538pt)
+* v-part:(T,H,B)=(47.32242pt, 726.7408pt, 70.98363pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=519.82892pt
-* \textheight=735.18661pt
-* \oddsidemargin=-33.43051pt
-* \evensidemargin=-33.43051pt
-* \topmargin=-65.3259pt
+* \textwidth=513.85713pt
+* \textheight=726.7408pt
+* \oddsidemargin=-30.44463pt
+* \evensidemargin=-30.44463pt
+* \topmargin=-61.94757pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -942,7 +942,7 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 67.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -951,31 +951,29 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
-("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Cover Lette
-r\CoverLetter_Quant.out")
-("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Cover Lette
-r\CoverLetter_Quant.out")
+("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Resume\Chri
+sResume.out")
+("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Resume\Chri
+sResume.out")
 \@outlinefile=\write4
 
 ("C:\Documents and Settings\Christopher\Application Data\MiKTeX\2.9\tex\latex\m
 icrotype\mt-mvs.cfg"
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 160.
-
-LaTeX Font Info:    No file OMSqpl.fd. on input line 160.
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 70.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 160.
+(Font)              for symbol `textbullet' on input line 70.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 160.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 70.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -984,31 +982,50 @@ icrotype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 160.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 70.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 160
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 70.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 160
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 70.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 160.
+(Font)              <12> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 160.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 160.
+(Font)              <6> on input line 70.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 
  []
 
@@ -1016,38 +1033,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--160
 
 {C:/Documents and Settings/Christopher/Local Settings/Application Data/MiKTeX/2
 .9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Resume\Chri
+sResume.bbl") [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
 
-("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Cover Lette
-r\CoverLetter_Quant.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
-Package rerunfilecheck Info: File `CoverLetter_Quant.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+("C:\Documents and Settings\Christopher\Desktop\ChrisWork\Job Stuff\Resume\Chri
+sResume.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package rerunfilecheck Info: File `ChrisResume.out' has not changed.
+(rerunfilecheck)             Checksum: B9261053634B6AF11B06C3E270CC780E;614.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26486 strings out of 493921
- 497454 string characters out of 3147209
- 546975 words of memory out of 3000000
- 29410 multiletter control sequences out of 15000+200000
- 28709 words of font info for 38 fonts, out of 3000000 for 9000
+ 26564 strings out of 493921
+ 498340 string characters out of 3147209
+ 549319 words of memory out of 3000000
+ 29447 multiletter control sequences out of 15000+200000
+ 42485 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 76i,11n,60p,10448b,338s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,11n,60p,10436b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Documents and Settings/Christopher/Application Data/MiKTeX/2.9/fonts/enc/
 dvips/tex-gyre/q-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Documents and Settings/Christopher/Application Data/MiKTeX/
 2.9/fonts/type1/public/marvosym/marvosym.pfb><C:/Documents and Settings/Christo
 pher/Application Data/MiKTeX/2.9/fonts/type1/public/tex-gyre/qplb.pfb><C:/Docum
 ents and Settings/Christopher/Application Data/MiKTeX/2.9/fonts/type1/public/te
-x-gyre/qplr.pfb>
-Output written on CoverLetter_Quant.pdf (1 page, 72147 bytes).
+x-gyre/qplr.pfb><C:/Documents and Settings/Christopher/Application Data/MiKTeX/
+2.9/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on ChrisResume.pdf (2 pages, 120569 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 5133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 10293 words of extra memory for PDF output out of 12000 (max. 10000000)
 

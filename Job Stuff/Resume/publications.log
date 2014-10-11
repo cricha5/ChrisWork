@@ -1,0 +1,73 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdftex 2014.10.10)  10 OCT 2014 13:55
+entering extended mode
+**C:/Documents*and*Settings/Christopher/Desktop/ChrisWork/Job*Stuff/Resume/publ
+ications.bib
+
+("C:/Documents and Settings/Christopher/Desktop/ChrisWork/Job Stuff/Resume/publ
+ications.bib"
+Overfull \hbox (16.19038pt too wide) in paragraph at lines 34--44
+\tenrm the Un-cer-tainty of the Or-der-ing of Non-lo-cal Wave-func-tion Col-lap
+se when Rel-a-tiv-ity is Con-sid-ered", year="2014",|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm h
+.\tenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm U
+.etc.
+
+
+Overfull \hbox (99.57973pt too wide) in paragraph at lines 34--44
+\tenrm rary into to Quan-tum Stud-ies: Math-e-mat-ics and Foun-da-tions arXiv:1
+310.4956 [quant-ph]", URL="http://arxiv.org/abs/1310.4956"|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm r
+.\tenrm a
+.\tenrm r
+.\tenrm y
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--44
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (4.1626pt too wide) in paragraph at lines 79--90
+[]\tenrm @article1367-2630-14-4-043003, au-thor=Carl F. Sabot-tke and Chris D. 
+Richard-son et al., ti-tle=Thwarting|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (39.80182pt too wide) in paragraph at lines 79--90
+\tenrm nal=New Jour-nal of Physics, vol-ume=14, num-ber=4, pages=043003, year=2
+012, url=http://arxiv.org/abs/1111.4510,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm n
+.\tenrm a
+.\tenrm l
+.\tenrm =
+.\tenrm N
+.etc.
+
+)
+*
+! Emergency stop.
+<*> ...ChrisWork/Job*Stuff/Resume/publications.bib
+                                                  
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
